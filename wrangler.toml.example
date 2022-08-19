@@ -1,0 +1,24 @@
+name = "cf-image-resize-worker"
+main = "src/index.js"
+compatibility_date = "2022-08-13"
+account_id = ""
+
+# Whether you use `<NAME>.<SUBDOMAIN>.workers.dev` to
+# test and deploy your Worker.
+# @default `true`
+workers_dev = true
+
+# These fields specify that the Worker
+# will deploy to a custom domain
+# 
+# zone_id = "09876543210987654321"
+# route = "example.com/*"
+
+# A map of environment variables to set when deploying your Worker.
+# @default `{}`
+# not inherited
+[vars]
+API_TOKEN = ""
+PUBLISH_IMAGE_ACCOUNT_HASH = ""
+PUBLISH_IMAGE_ACCOUNT_ID = ""
+IMAGE_VARIANT = ""
