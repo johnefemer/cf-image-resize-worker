@@ -1,6 +1,7 @@
 {
-  "name": "jamunatv",
-  "version": "0.0.0",
+  "name": "cf-image-resize-worker",
+  "author": "John Efemer <efemer@gmail.com>"
+  "version": "0.1.0",
   "devDependencies": {
     "wrangler": "2.0.25"
   },
